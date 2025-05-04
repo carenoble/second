@@ -46,20 +46,6 @@ const Hero = ({
       className="relative bg-white overflow-hidden pt-12 pb-8 md:pt-20 md:pb-16"
       onMouseMove={handleMouseMove}
     >
-      {/* Cursor-following glow */}
-      <div
-        className="pointer-events-none fixed md:absolute z-0"
-        style={{
-          left: `calc(${mouse.x * 100}% - 120px)` ,
-          top: `calc(${mouse.y * 100}% - 120px)` ,
-          width: 240,
-          height: 240,
-          background: 'radial-gradient(circle, rgba(83,186,255,0.25) 0%, rgba(83,186,255,0.12) 60%, transparent 100%)',
-          filter: 'blur(8px)',
-          borderRadius: '50%',
-          transition: 'left 0.8s cubic-bezier(.4,0,.2,1), top 0.8s cubic-bezier(.4,0,.2,1)',
-        }}
-      />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left: Text Content */}
