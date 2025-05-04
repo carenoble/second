@@ -20,7 +20,7 @@ const Home = () => {
         title="IS HERE TO BE YOUR ASSISTANCE"
         accentText="CareNoble"
         subtitle="I am here ready to help you in making creative digital products"
-        buttonText="Let's Discuss"
+        buttonText="Book Viewing"
         buttonLink="/contact"
         mainImage="https://images.pexels.com/photos/1181696/pexels-photo-1181696.jpeg?auto=compress&fit=crop&w=400&q=80"
         infoCards={[
